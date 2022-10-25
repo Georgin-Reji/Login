@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/469df30c75.js" crossorigin="anonymous"></script>
+    <script src="asset/scripts/main.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="asset/styles/main.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="container-left">
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="container-text">
+                <h2>LOREM IPSUM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, numquam dolorum rerum necessitatibus harum vitae? Quam beatae velit, fugit aliquam sunt voluptatem sed, dolorum voluptate, modi animi iste dignissimos fuga magni aperiam aut? Aut beatae totam itaque nostrum necessitatibus alias sequi doloremque sit voluptate fugit voluptatem aliquid, vel velit repellat minus. Quo debitis ipsum doloremque reiciendis quod corporis itaque, ratione beatae non consequuntur adipisci? Alias sapiente harum, aliquid quis laboriosam facere ipsam tempora numquam incidunt, nam officia temporibus ullam facilis voluptatem necessitatibus modi est, delectus illo eum pariatur fuga vero? Ullam impedit enim ut, consequuntur aperiam aut amet distinctio voluptas.</p>
+            </div>
+            <div class="circles-bottom">
+                <div class="circle-bottom c1"></div>
+                <div class="circle-bottom c2"></div>
+                <div class="circle-bottom c3"></div>
+                <div class="circle-bottom c4"></div>
+                <div class="circle-bottom c5"></div>
+                <div class="circle-bottom c6"></div>
+                <div class="circle-bottom c7"></div>
+                <div class="circle-bottom c8"></div>
+            </div>
+        </div>
+        
+        <!-- Login In Form -->
+
+        <form class="container-right">
+            <h1>SIGN IN</h1>
+            <div class="txt-wrap">
+                <div class="txt-box">
+                    <i class="fa-xl fa-solid fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="txt-box">
+                    <i class="fa-xl fa-solid fa-lock"></i>
+                    <input id="pwd" type="password" name="password" placeholder="password">
+                    <span onclick="password_show()" class="eye">
+                        <i id="pdw-show" class="fa-xl fa-solid fa-eye"></i>
+                        <i id="pwd-hide" class="fa-xl fa-sharp fa-solid fa-eye-slash"></i>
+                    </span>
+                </div>
+            </div>
+            
+                    <div class="links">
+                        <div class="link checkbox" id="link1">
+                            <input type="checkbox" name="remember" value="Remember" id="remember"><p>Remember</p>
+                        </div>
+                        <div class="link forgot-password" id="link2">
+                            <a href=""><p>Forgot Password?</p></a>
+                        </div>  
+                    </div>
+                    <input class="btn-login" type="submit" value="LOG IN" >
+        </form>
+    </div>
+</body>
+</html>
